@@ -1,0 +1,238 @@
+/* Universal Selector for margin, padding and box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Header */
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* Header container */
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+/* Header div */
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Img fluid */
+.img-fluid {
+    max-width: 100%;
+    display: block;
+}
+/* Header logo */
+.logo {
+    width: 20%;
+    flex-basis: 20%;
+}
+/* Header nav */
+nav {
+    width: 80%;
+    flex-basis: 80%;
+}
+/* Header nav ul */
+nav ul {
+    list-style-type: none;
+    justify-content: flex-end;
+}
+/* Header nav ul li */
+nav ul li {
+    margin-right: 50px;
+}
+/* Header nav ul li a */
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+/* Header nav ul li a hover effect */
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+/* Banner img */
+.banner-img img {
+    width: 100%;
+}
+/* Photodiary-section */
+.photodiary-section {
+    padding: 80px 0 80px 0;
+}
+.photodiary-content {
+    padding: 0 100px;
+}
+/* Photodiary-content */
+.photodiary-content h4 {
+    color: #b5b3b3;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.photodiary-content h2 {
+    color: #333;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 30px;
+}
+.photodiary-content p {
+    color: #333;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 30px;
+}
+.lifestyle-section > .d-flex {
+    justify-content: space-between;
+}
+.lifestyle-1, .lifestyle-2, .lifestyle-3, .lifestyle-4 {
+    width: 50%;
+}
+.lifestyle-1, .lifestyle-2 {
+    margin-bottom: 40px;
+}
+.lifestyle h3, .lifestyle p {
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    font-size: 25px;
+    padding: 20px 20px 0 20px;
+    width: 70%;
+}
+.lifestyle p {
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 20px 20px;
+}
+.newsletter-section {
+    background: rgba(232, 228, 228, 1);
+}
+.newsletter {
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0 20px 0;
+}
+.newsletter h3 {
+    Font-family: 'Langar', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 27px;
+}
+.newsletter input {
+    border-style: none none solid none;
+    width: 50%;
+    flex-basis: 50%;
+    background-color: transparent;
+    border-color: black;
+    font-size: 24px;
+    font-family: 'Andika New Basic', sans-serif;
+    outline: none;
+    background-image: url(images/send.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.last-section {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.last-section > .d-flex {
+    justify-content: space-between;
+}
+.last-1, .last-2 {
+    width: 50%;
+}
+.last-1 h3, .last-2 h3, .last-1 p, .last-2 p {
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    font-size: 25px;
+    padding: 20px 20px 0 20px;
+    width: 70%;
+}
+.last-1 p, .last-2 p {
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 20px 20px;
+}
+.load a {
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    border: 2px solid grey;
+    padding: 17px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+}
+.load a:hover {
+    background-color: grey;
+    color: white;
+}
+.footer-section {
+    width: 100%;
+    background-color: rgba(232, 228, 228, 1);
+    padding: 50px 0 20px 0;
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-1 a {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+footer .footer-1 a:nth-child(1) {
+    word-spacing: 5px;
+    margin-right: 10px;
+}
+footer .footer-1 a:hover {
+    color: rgb(37, 12, 105);
+}
+footer .footer-2 a {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer .footer-2 a:hover {
+    color: teal;
+}
+footer .footer-2 i {
+    color: grey;
+}
+footer .footer-2 i:hover {
+    color: black;
+}
